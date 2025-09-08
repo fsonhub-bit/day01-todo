@@ -7,14 +7,23 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <main class="container">
-    <h1>Day01 ToDo</h1>
+<main class="container">
+  <div class="card">
+    <div class="header">
+      <h1>Day01 ToDo</h1>
+      <span class="badge">v1.0</span>
+    </div>
+
     <form id="todo-form">
       <input id="todo-input" placeholder="やること…" autocomplete="off" />
       <button>追加</button>
     </form>
+
     <ul id="todo-list"></ul>
-  </main>
+
+    <div class="footer">Enterで追加、クリックで完了、削除で消せます。</div>
+  </div>
+</main>
   <script src="main.js"></script>
 </body>
 </html>
