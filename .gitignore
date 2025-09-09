@@ -1,0 +1,11 @@
+# macOS system files
+.DS_Store
+
+# Node.js modules
+node_modules/
+
+# Logs
+*.log
+
+# 環境変数ファイル
+.env
